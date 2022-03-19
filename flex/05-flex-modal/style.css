@@ -15,7 +15,42 @@ body {
   justify-content: center;
 }
 
+.Headers {
+  display: flex;
+  flex-direction: row;
+  height: 10px;
+  gap: 20px;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 20px;
+  height: 50px;
+  
+}
+
+.selectbuttons {
+  display: flex;
+  flex-direction: row;
+  padding-inline-start: 30px;
+  gap: 10px;
+}
+
+.text{
+display: flex;
+justify-content: center;
+padding-inline-start: 40px ;
+
+}
+
 .modal {
+  padding: 15px 15px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-height: 120%;
+  min-height: 20%;
+  column-gap: 2em;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -49,7 +84,7 @@ body {
 }
 
 button {
-  padding: 8px 16px;
+  padding: 1px 12px;
   border-radius: 8px;
 }
 

@@ -8,12 +8,32 @@ body {
   font-family: Besley, serif;
 }
 
+
 .header {
+  display: flex;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
+.links {
+  display: flex;
+  gap: 16px;
+  align-content: space-between;
+  padding-inline-start: 20px;
+}
 
+.leftelements {
+
+  display: flex;
+
+}
+
+.rightelements {
+  gap: 20px;
+  display: flex;
+  align-self: center;
+}
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -30,6 +50,9 @@ body {
 }
 
 button {
+  display: flex;
+  align-self: center;
+  align-content: flex-end;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
